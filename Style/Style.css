@@ -12,24 +12,25 @@
 	  top: 0px; 
 	  right: 0px;
 	  width: 100%;
-	  overflow: hidden; }
+	  overflow: hidden;}
  
  li { display: inline; 
 	  float:right; }
 			 
  a { display: block; 
-	 color: #05386B; 
+	 color: #FFFFFF; 
 	 text-decoration: none; 
 	 text-align: center;
 	 padding: 0px 10px;
 	 top: 0px; 
-	 font-size: 22px;}
+	 font-family: 'Allan', Helvetica, Arial, sans-serif; 
+	 font-size: 18px;}
 		
  a:hover { color: green;} 
 		
 		
 /*the cover page*/
- .page1 { background-image:url(../Images/2.jpg); 
+ .page1 { background-image:url(../Images/cover.jpg); 
 		  background-repeat: no-repeat; 
 		  background-size: cover; 
 		  background-attachment: fixed;

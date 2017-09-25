@@ -1,33 +1,34 @@
 /*Styles for the personal website*/
- 
- 
+
+
 /*the whole body*/
  body { padding: 0;
 		margin: 0; }
 			   
-			   
 /*the navigation bar*/
- ul { list-style-type: none; 
+ ul { list-style-type: block; 
 	  position: fixed; 
 	  top: 0px; 
-	  right: 0px;
+	  right: 0;
 	  width: 100%;
-	  overflow: hidden;}
+	  overflow: hidden; 
+	  z-index: 100;}
  
- li { display: inline; 
-	  float:right; }
-			 
- a { display: block; 
+ ul li { display: inline; 
+		 float:right; }
+
+
+ ul li a{ isplay: block; 
 	 color: #FFFFFF; 
 	 text-decoration: none; 
 	 text-align: center;
-	 padding: 0px 10px;
+	 padding: 8px 10px;
 	 top: 0px; 
 	 font-family: 'Allan', Helvetica, Arial, sans-serif; 
-	 font-size: 18px;}
+	 font-size: 18px; }
 		
- a:hover { color: green;} 
-		
+ a:hover { color: #F8E9A1;} 
+ 
 		
 /*the cover page*/
  .page1 { background-image:url(../Images/cover.jpg); 
@@ -42,7 +43,7 @@
 				 
 				 
 /*about me page*/
- .page2.main { background-color: #E8A87C; 
+ .page2.main { background-color: #FAEBD7; 
 			   position:absolute;  
 		       left: 0; 
 			   top: 733px;
@@ -52,13 +53,16 @@
 		 
 
 /*education & experience page*/
- .page3.main { background-color: #C38D93; 
-				 position:absolute; 
-				 left: 0; 
-				 top: 1466px; 
-				 width: 100%; 
-				 height: 100%; 
-				 overflow:hidden; }	
+ .page3.main {  background-image:url(../Images/experience.jpg); 
+				background-repeat: no-repeat; 
+				background-size: cover; 
+				background-attachment: fixed;
+				background-position: center;
+				position:absolute;  
+				width: 100%; 
+				height: 100%; 
+				top: 1466px; 
+				overflow:hidden; }	
 
 
 /*skills page*/
@@ -72,9 +76,12 @@
 		 
 
 /*abilities page*/
- .page5.main { background-color: #41B3A3; 
-				position:absolute; 
-				left: 0; 
+ .page5.main { background-image:url(../Images/desktop_cloud7_DLF.jpg); 
+				background-repeat: no-repeat; 
+				background-size: cover; 
+				background-attachment: fixed;
+				background-position: center;
+				position:absolute;  
 				top: 2931px;
 				width: 100%; 
 				height: 100%;  

@@ -45,38 +45,60 @@
 				 
 /*about me page*/
  .page2.main { background-color: #FAEBD7; 
-			   position:absolute;  
+			   position:relative;  
 		       left: 0; 
 			   top: 733px;
 			   width: 100%; 
-			   height: 100%;
+			   height: 733px;
 		       overflow:hidden; }
 			   
- .about.me.title { position: relative;
+ .about.me.title { position: absolute;
 				   top: 20px;
 				   left: 630px;
 				   width: 320px;
 				   height: 150px;
-				   background-color: #none; }
+				   background-color: #none; 
+				   overflow:hidden; }
 				  
- .picture { position: relative;
-			top: 20px;
+ .picture { position: absolute;
+			top: 160px;
 			left: 700px;
 			width: 200px;
-			height: 250; 
-			line-height: 300px;}
+			height: 220px; 
+			line-height: 300px;
+			overflow:hidden; }
 
- .left.side { position: relative;
-			  top: -380px;
+ .left.side { position: absolute;
+			  top: 160px;
 			  left: 140px;
 			  width: 500px;
-			  height: 300px; }
+			  height: 300px; 
+			  overflow:hidden; }
 			  
- .right.side { position: relative;
-			  top: -700px;
-			  left: 940px;
-			  width: 500px;
-			  height: 300px; }
+ .right.side { position: absolute;
+			   top: 160px;
+			   left: 940px;
+			   width: 500px;
+			   height: 300px; 
+			   overflow:hidden; }
+
+ .paragraph { background-color: #FFFFFF; 
+			  position: absolute;  
+		      left: 470px; 
+			  top: 440px;
+			  width: 700px; 
+			  height: 130px; 
+			  overflow:hidden;}
+			  
+ .interests { background-color: #FFFFFF; 
+			  position: absolute;  
+		      left: 470px; 
+			  top: 580px;
+			  width: 700px; 
+			  height: 130px; 
+			  overflow:hidden;}
+
+			
 
 /*education & experience page*/
  .page3.main {  background-image:url(../Images/experience.jpg); 

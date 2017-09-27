@@ -111,6 +111,14 @@
 				height: 100%; 
 				top: 1466px; 
 				overflow:hidden; }	
+				
+ .educ.and.exp.title { position: absolute;
+				       top: 0px;
+				       left: 420px;
+				       width: 800px;
+				       height: 200px;
+				       background-color: #none; 
+				       overflow:hidden; }
 
 
 /*skills page*/

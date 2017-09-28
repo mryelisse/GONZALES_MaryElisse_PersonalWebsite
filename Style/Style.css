@@ -41,8 +41,11 @@
 		  width:100%; 
 		  height:100%; 
 		  overflow: hidden; }
-				 
-				 
+
+
+		  
+
+		  
 /*about me page*/
  .page2.main { background-color: #FAEBD7; 
 			   position:relative;  
@@ -53,15 +56,15 @@
 		       overflow:hidden; }
 			   
  .about.me.title { position: absolute;
-				   top: 20px;
+				   top: 0px;
 				   left: 630px;
-				   width: 320px;
-				   height: 150px;
+				   width: 350px;
+				   height: 180px;
 				   background-color: #none; 
 				   overflow:hidden; }
 				  
  .picture { position: absolute;
-			top: 160px;
+			top: 170px;
 			left: 700px;
 			width: 200px;
 			height: 220px; 
@@ -69,14 +72,14 @@
 			overflow:hidden; }
 
  .left.side { position: absolute;
-			  top: 160px;
+			  top: 170px;
 			  left: 140px;
 			  width: 500px;
 			  height: 300px; 
 			  overflow:hidden; }
 			  
  .right.side { position: absolute;
-			   top: 160px;
+			   top: 170px;
 			   left: 940px;
 			   width: 500px;
 			   height: 300px; 
@@ -90,18 +93,19 @@
 			  height: 130px; 
 			  overflow:hidden;}
 			  
- .interests { background-color: #FFFFFF; 
-			  position: absolute;  
+ .interests { position: absolute;  
 		      left: 470px; 
 			  top: 580px;
 			  width: 700px; 
 			  height: 130px; 
 			  overflow:hidden;}
+			  
+			  
+			  
 
 			
-
 /*education & experience page*/
- .page3.main {  background-image:url(../Images/experience.jpg); 
+ .page3.main {  background-image:url(../Images/educCover.jpg); 
 				background-repeat: no-repeat; 
 				background-size: cover; 
 				background-attachment: fixed;
@@ -113,8 +117,8 @@
 				overflow:hidden; }	
 				
  .educ.and.exp.title { position: absolute;
-				       top: 0px;
-				       left: 420px;
+				       top: -20px;
+				       left: 400px;
 				       width: 800px;
 				       height: 200px;
 				       background-color: #none; 

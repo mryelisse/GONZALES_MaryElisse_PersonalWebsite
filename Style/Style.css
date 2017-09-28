@@ -124,6 +124,14 @@
 				       background-color: #none; 
 				       overflow:hidden; }
 
+ .center.art { position: absolute;
+			   top: 120px;
+			   left: 800px;
+			   width: 50px;
+			   height: 600px;
+			   background-color: #none; 
+			   overflow:hidden; }
+
 
 /*skills page*/
  .page4.main { background-color: #E27D60; 

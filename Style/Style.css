@@ -32,7 +32,7 @@
  
 		
 /*the cover page*/
- .page1 { background-image:url(../Images/cover.jpg); 
+ .page1 { background-image:url(../Images/cover.png); 
 		  background-repeat: no-repeat; 
 		  background-size: cover; 
 		  background-attachment: fixed;
@@ -104,7 +104,7 @@
 
 			
 /*education & experience page*/
- .page3.main {  background-color: #666666; 
+ .page3.main {  background-color: #938E94; 
 				position:absolute; 
 				left: 0; 
 				top: 1466px;
@@ -193,57 +193,51 @@
 		  top: 125px;
 	      left: 360px;
    	      width: 380px;
-		  height: 55px;
+		  height: 60px;
 		  overflow:hidden; 
-		  background-color: #FFFFFF;}
+		  }
 		  
  .text2 { position: absolute;
 		  top: 210px;
 	      left: 860px;
    	      width: 380px;
-		  height: 55px;
-		  overflow:hidden; 
-		  background-color: #FFFFFF;}
+		  height: 60px;
+		  overflow:hidden; }
 		  
  .text3 { position: absolute;
 		  top: 298px;
 	      left: 360px;
    	      width: 380px;
-		  height: 55px;
-		  overflow:hidden; 
-		  background-color: #FFFFFF;}		
+		  height: 60px;
+		  overflow:hidden; }		
 
  .text4 { position: absolute;
 		  top: 382px;
 	      left: 860px;
-   	      width: 380px;
+   	      width: 400px;
 		  height: 55px;
-		  overflow:hidden; 
-		  background-color: #FFFFFF;}	
+		  overflow:hidden; }	
 
  .text5 { position: absolute;
 		  top: 469px;
 	      left: 360px;
    	      width: 380px;
 		  height: 55px;
-		  overflow:hidden; 
-		  background-color: #FFFFFF;}	
+		  overflow:hidden; }	
 
  .text6 { position: absolute;
-		  top: 555px;
+		  top: 540px;
 	      left: 860px;
-   	      width: 380px;
-		  height: 55px;
-		  overflow:hidden; 
-		  background-color: #FFFFFF;}			  
+   	      width: 560px;
+		  height: 75px;
+		  overflow:hidden; }			  
  
  .text7 { position: absolute;
-		  top: 642px;
-	      left: 360px;
-   	      width: 380px;
-		  height: 55px;
-		  overflow:hidden; 
-		  background-color: #FFFFFF;}	
+		  top: 638px;
+	      left: 46px;
+   	      width: 680px;
+		  height: 60px;
+		  overflow:hidden; }	
 
 		  
 		   

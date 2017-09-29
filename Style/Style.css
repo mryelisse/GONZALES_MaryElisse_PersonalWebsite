@@ -196,10 +196,10 @@
 		  }
 		  
  .text2 { position: absolute;
-		  top: 210px;
+		  top: 195px;
 	      left: 860px;
    	      width: 380px;
-		  height: 60px;
+		  height: 75px;
 		  overflow:hidden; }
 		  
  .text3 { position: absolute;
@@ -256,11 +256,11 @@
 		 
 /*skills page*/
  .skill {  background-color: #fafafa;
-				position:absolute;  
-				top: 2199px;
-				width: 100%; 
-				height: 100%;  
-				overflow:hidden; }
+		   position:absolute;  
+		   top: 2199px;
+		   width: 100%; 
+		   height: 100%;  
+		   overflow:hidden; }
 				
  .skill.title { position: absolute;
 				top: -10px;
@@ -269,8 +269,63 @@
 				height: 180px;
 				overflow:hidden; }
 				
+ .percent1 { background-image: url(../Images/80.png);
+			 background-repeat: no-repeat;
+			 position: absolute;
+		     top: 130px;
+	         left:350px;
+   	         width: 250px;
+		     height: 200px;
+		     overflow:hidden; }
+			 
+ .percent2 { background-image: url(../Images/90.png);
+			 background-repeat: no-repeat;
+			 position: absolute;
+		     top: 130px;
+	         left: 650px;
+   	         width: 250px;
+		     height: 200px;
+		     overflow:hidden; }
+			 
+ .percent3 { background-image: url(../Images/15.png);
+			 background-repeat: no-repeat;
+			 position: absolute;
+		     top: 130px;
+	         left: 940px;
+   	         width: 250px;
+		     height: 200px;
+		     overflow:hidden; }
+			 
+ .percent4 { background-image: url(../Images/50.png);
+			 background-repeat: no-repeat;
+			 position: absolute;
+		     top: 405px;
+	         left: 350px;
+   	         width: 250px;
+		     height: 200px;
+		     overflow:hidden; }
+			 
+ .percent5 { background-image: url(../Images/85.png);
+			 background-repeat: no-repeat;
+			 position: absolute;
+		     top: 405px;
+	         left: 650px;
+   	         width: 250px;
+		     height: 200px;
+		     overflow:hidden; }
+
+ .percent6 { background-image: url(../Images/80.png);
+			 background-repeat: no-repeat;
+			 position: absolute;
+		     top: 405px;
+	         left: 940px;
+   	         width: 250px;
+		     height: 200px;
+		     overflow:hidden; }				
 
 
+				
+				
 /*abilities page*/
  .abilities { background-color: gray; 
 				position:absolute; 

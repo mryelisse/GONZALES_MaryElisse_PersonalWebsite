@@ -291,7 +291,7 @@
 			 background-repeat: no-repeat;
 			 position: absolute;
 		     top: 130px;
-	         left: 940px;
+	         left: 950px;
    	         width: 250px;
 		     height: 200px;
 		     overflow:hidden; }
@@ -299,7 +299,7 @@
  .percent4 { background-image: url(../Images/50.png);
 			 background-repeat: no-repeat;
 			 position: absolute;
-		     top: 405px;
+		     top: 425px;
 	         left: 350px;
    	         width: 250px;
 		     height: 200px;
@@ -308,7 +308,7 @@
  .percent5 { background-image: url(../Images/85.png);
 			 background-repeat: no-repeat;
 			 position: absolute;
-		     top: 405px;
+		     top: 425px;
 	         left: 650px;
    	         width: 250px;
 		     height: 200px;
@@ -317,11 +317,61 @@
  .percent6 { background-image: url(../Images/80.png);
 			 background-repeat: no-repeat;
 			 position: absolute;
-		     top: 405px;
-	         left: 940px;
+		     top: 425px;
+	         left: 950px;
    	         width: 250px;
 		     height: 200px;
-		     overflow:hidden; }				
+		     overflow:hidden; }	
+
+ .skill1 { background-color: #FFFFFF;
+		   position: absolute;
+		   top: 330px;
+	       left: 343px;
+   	       width: 250px;
+		   height: 80px;
+		   overflow:hidden; }
+
+ .skill2 { background-color: #FFFFFF;
+		   position: absolute;
+		   top: 330px;
+	       left: 650px;
+   	       width: 250px;
+		   height: 80px;
+		   overflow:hidden; }	
+ 
+ .skill3 { background-color: #FFFFFF;
+		   position: absolute;
+		   top: 330px;
+	       left: 955px;
+   	       width: 250px;
+		   height: 80px;
+		   overflow:hidden; }	
+
+.skill4 { background-color: #FFFFFF;
+		   position: absolute;
+		   top: 625px;
+	       left: 343px;
+   	       width: 250px;
+		   height: 80px;
+		   overflow:hidden; }
+
+ .skill5 { background-color: #FFFFFF;
+		   position: absolute;
+		   top: 625px;
+	       left: 650px;
+   	       width: 250px;
+		   height: 80px;
+		   overflow:hidden; }	
+ 
+ .skill6 { background-color: #FFFFFF;
+		   position: absolute;
+		   top: 625px;
+	       left: 955px;
+   	       width: 250px;
+		   height: 80px;
+		   overflow:hidden; }			   
+
+			 
 
 
 				

@@ -323,8 +323,7 @@
 		     height: 200px;
 		     overflow:hidden; }	
 
- .skill1 { background-color: #FFFFFF;
-		   position: absolute;
+ .skill1 { position: absolute;
 		   top: 330px;
 	       left: 343px;
    	       width: 250px;

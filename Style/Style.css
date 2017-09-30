@@ -351,12 +351,11 @@
 		   height: 100px;
 		   overflow:hidden; }
 
- .skill5 { background-color: #FFFFFF;
-		   position: absolute;
+ .skill5 { position: absolute;
 		   top: 625px;
 	       left: 650px;
-   	       width: 250px;
-		   height: 80px;
+   	       width: 270px;
+		   height: 100px;
 		   overflow:hidden; }	
  
  .skill6 { background-color: #FFFFFF;

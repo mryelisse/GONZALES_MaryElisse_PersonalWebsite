@@ -191,7 +191,7 @@
 		  top: 125px;
 	      left: 360px;
    	      width: 380px;
-		  height: 60px;
+		  height: 70px;
 		  overflow:hidden; 
 		  }
 		  
@@ -199,14 +199,14 @@
 		  top: 195px;
 	      left: 860px;
    	      width: 380px;
-		  height: 75px;
+		  height: 80px;
 		  overflow:hidden; }
 		  
  .text3 { position: absolute;
-		  top: 298px;
+		  top: 295px;
 	      left: 360px;
    	      width: 380px;
-		  height: 60px;
+		  height: 65px;
 		  overflow:hidden; }		
 
  .text4 { position: absolute;
@@ -227,14 +227,14 @@
 		  top: 540px;
 	      left: 860px;
    	      width: 560px;
-		  height: 75px;
+		  height: 80px;
 		  overflow:hidden; }			  
  
  .text7 { position: absolute;
-		  top: 638px;
+		  top: 636px;
 	      left: 46px;
    	      width: 680px;
-		  height: 60px;
+		  height: 65px;
 		  overflow:hidden; }	
 }
 		  
@@ -328,7 +328,7 @@
 		   top: 330px;
 	       left: 343px;
    	       width: 250px;
-		   height: 80px;
+		   height: 90px;
 		   overflow:hidden; }
 
  .skill2 { background-color: #FFFFFF;

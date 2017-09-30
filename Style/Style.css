@@ -330,12 +330,11 @@
 		   height: 90px;
 		   overflow:hidden; }
 
- .skill2 { background-color: #FFFFFF;
-		   position: absolute;
+ .skill2 { position: absolute;
 		   top: 330px;
 	       left: 650px;
-   	       width: 250px;
-		   height: 80px;
+   	       width: 270px;
+		   height: 90px;
 		   overflow:hidden; }	
  
  .skill3 { background-color: #FFFFFF;

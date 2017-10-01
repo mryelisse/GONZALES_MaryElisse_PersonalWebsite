@@ -380,28 +380,49 @@
 			  overflow:hidden; }	
 				
  .abilities.title { position: absolute;
-					top: -5px;
+					top: 0px;
 					left: 570px;
 					width: 400px;
 					height: 200px;
 					overflow:hidden; }
 					
  .ability1 { position: absolute;
-			 top: 160px;
+			 top: 180px;
 			 left: 300px;
 			 width: 300px;
 			 height: 120px;
 			 overflow:hidden; }
 			 
  .ability2 { position: absolute;
-			 top: 160px;
+			 top: 180px;
 			 left: 625px;
 			 width: 300px;
 			 height: 120px;
 			 overflow:hidden; }
 			 
  .ability3 { position: absolute;
-			 top: 160px;
+			 top: 180px;
+			 left: 950px;
+			 width: 300px;
+			 height: 120px;
+			 overflow:hidden; }
+
+ .ability4 { position: absolute;
+			 top: 320px;
+			 left: 300px;
+			 width: 300px;
+			 height: 120px;
+			 overflow:hidden; }
+			 
+ .ability5 { position: absolute;
+			 top: 320px;
+			 left: 625px;
+			 width: 300px;
+			 height: 120px;
+			 overflow:hidden; }
+			 
+ .ability6 { position: absolute;
+			 top: 320px;
 			 left: 950px;
 			 width: 300px;
 			 height: 120px;

@@ -420,6 +420,13 @@
 			 width: 300px;
 			 height: 120px;
 			 overflow:hidden; }
+			 
+ .ability3.text { position: absolute;
+				  top: 180px;
+				  left: 950px;
+				  width: 300px;
+				  height: 120px;
+				  overflow:hidden; }
 
  .ability4 { position: absolute;
 			 top: 320px;

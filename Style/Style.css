@@ -435,6 +435,13 @@
 			 height: 120px;
 			 overflow:hidden; }
 			 
+ .ability4.text { position: absolute;
+				  top: 320px;
+				  left: 300px;
+				  width: 300px;
+				  height: 120px;
+			      overflow:hidden; }
+			 
  .ability5 { position: absolute;
 			 top: 320px;
 			 left: 625px;

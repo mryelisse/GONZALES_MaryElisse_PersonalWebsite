@@ -371,7 +371,7 @@
 				
 				
 /*abilities page*/
- .abilities { background-color: #c1a28b; 
+ .abilities { background-color: #f3dee5; 
 			  position:absolute; 
 			  left: 0; 
 			  top: 2931px;
@@ -380,12 +380,33 @@
 			  overflow:hidden; }	
 				
  .abilities.title { position: absolute;
-					top: 0px;
-					left: 510px;
-					width: 450px;
-					height: 180px;
+					top: -5px;
+					left: 570px;
+					width: 400px;
+					height: 200px;
 					overflow:hidden; }
- 
+					
+ .ability1 { position: absolute;
+			 top: 160px;
+			 left: 300px;
+			 width: 300px;
+			 height: 120px;
+			 overflow:hidden; }
+			 
+ .ability2 { position: absolute;
+			 top: 160px;
+			 left: 625px;
+			 width: 300px;
+			 height: 120px;
+			 overflow:hidden; }
+			 
+ .ability3 { position: absolute;
+			 top: 160px;
+			 left: 950px;
+			 width: 300px;
+			 height: 120px;
+			 overflow:hidden; }
+	
 
 				
 				

@@ -477,6 +477,13 @@
 			 height: 120px;
 			 overflow:hidden; }
 			 
+ .ability7.text { position: absolute;
+				  top: 460px;
+				  left: 300px;
+				  width: 300px;
+				  height: 120px;
+				  overflow:hidden; }
+			 
  .ability8 { position: absolute;
 			 top: 460px;
 			 left: 625px;

@@ -518,7 +518,12 @@
 				  height: 120px;
 				  overflow:hidden; }
 				  
-
+ .ability.line { position: absolute;   
+				 top: 590px;
+				 left: 763px;
+				 width: 5px; 
+				 height: 60px; 
+				 overflow:hidden; }	
 				
 				
 				

@@ -393,6 +393,13 @@
 			 height: 120px;
 			 overflow:hidden; }
 			 
+ .ability1.text { position: absolute;
+				  top: 180px;
+				  left: 300px;
+				  width: 300px;
+				  height: 120px;
+				  overflow:hidden; }
+			 
  .ability2 { position: absolute;
 			 top: 180px;
 			 left: 625px;
@@ -454,7 +461,7 @@
 				
 
 /*message page*/
- .message { background-image:url(../Images/samp.jpg); 
+ .message { background-image:url(../Images/contact.jpg); 
 			background-repeat: no-repeat; 
 			background-size: cover; 
 			background-attachment: fixed;

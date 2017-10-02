@@ -47,48 +47,80 @@
 
 		  
 /*about me page*/
- .about { background-color: #FAEBD7; 
+ .about { background-color: #FFFFFF; 
 		  position:relative;  
 		  left: 0; 
 		  top: 733px;
 		  width: 100%; 
-		  height: 650px;
-		  overflow:hidden; }
+		  height: 650px; }
+		  
+ .about.top { background-color: #F2A88F; 
+			  position: absolute;  
+			  left: 0px; 
+		      top: 0px;
+		      width: 100%; 
+			  height: 200px; }
 			   
  .about.me.title { position: absolute;
-				   top: -10px;
-				   left: 590px;
+				   top: 0px;
+				   left: 600px;
 				   width: 350px;
-				   height: 180px; 
-				   overflow:hidden; }
-				  
- .picture { position: absolute;
-			top: 135px;
-			left: 620px;
-			width: 300px;
-			height: 220px; 
-			line-height: 300px;
-			overflow:hidden; }
+				   height: 160px; }
+				   
+ .container { position: absolute;
+			  top: 100px;
+			  left: 630px;
+			  width: 250px;
+			  height: 250px; }
+			
+ .container .container-layer_bottom { display: block;}
+
+ .container .container-layer_top { opacity: 0;
+								   position: absolute;
+							       top: 0;
+								   left: 0;
+								   width: 90%;
+								   height: 90%;
+								   background: rgba(0, 0, 0, 0.6);
+								   color: #fff;
+								   padding: 15px;
+								   transition: all 0.4s ease-in-out 0s; 
+								   border-radius: 50% }
+ 
+ .container:hover .container-layer_top,
+ .container.active .container-layer_top { opacity: 1; }
+ 
+ .container .container-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Ruluko';
+	font-size: 50px;
+}
 
  .left.side { position: absolute;
-			  top: 150px;
-			  left: 120px;
+			  top: 350px;
+			  left: -130px;
 			  width: 500px;
 			  height: 300px; 
 			  overflow:hidden; }
 			  
  .right.side { position: absolute;
-			   top: 140px;
-			   left: 900px;
+			   top: 345px;
+			   left: 400px;
 			   width: 500px;
 			   height: 300px; 
 			   overflow:hidden; }
 
  .paragraph { position: absolute;   
-			  top: 400px;
-			  left: 425px;
-			  width: 700px; 
-			  height: 230px; 
+			  top: 330px;
+			  left: 900px;
+			  width: 500px; 
+			  height: 500px; 
 			  overflow:hidden;}
 			  
  .about.line { position: absolute;   

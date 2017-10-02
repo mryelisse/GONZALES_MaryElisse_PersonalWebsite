@@ -32,20 +32,26 @@
  
 		
 /*the cover page*/
- .home { background-image:url(../Images/cover.png); 
+ .home { background-image: url(../Images/background1.png);
 		 background-repeat: no-repeat; 
 		 background-size: cover; 
 		 background-attachment: fixed;
 		 background-position: center;
 		 position:absolute; 
 		 width:100%; 
-		 height:100%; 
-		 overflow: hidden; }
+		 height:100%; }
+		 
+ .name { position: absolute;
+		 top: 250px;
+		 left: 560px;
+		 width: 400px;
+		 height: 200px; 
+		 overflow:hidden; }
+		 
+		 
+	
 
-
-		  
-
-		  
+	  
 /*about me page*/
  .about { background-color: #FFFFFF; 
 		  position:relative;  
@@ -100,6 +106,146 @@
 	transform: translate(-50%, -50%);
 	font-family: 'Ruluko';
 	font-size: 50px;
+}
+
+ .container2 { position: absolute;
+			  top: 120px;
+			  left: 200px;
+			  width: 180px;
+			  height: 180px; }
+			
+ .container2 .container2-layer_bottom { display: block;}
+
+ .container2 .container2-layer_top { opacity: 0;
+								   position: absolute;
+							       top: 0;
+								   left: 0;
+								   width: 90%;
+								   height: 90%;
+								   background: rgba(0, 0, 0, 0.6);
+								   color: #fff;
+								   padding: 15px;
+								   transition: all 0.4s ease-in-out 0s; 
+								   border-radius: 50% }
+ 
+ .container2:hover .container2-layer_top,
+ .container2.active .container2-layer_top { opacity: 1; }
+ 
+ .container2 .container2-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Ruluko';
+	font-size: 30px;
+}
+
+ .container3 { position: absolute;
+			  top: 120px;
+			  left: 420px;
+			  width: 180px;
+			  height: 180px; }
+			
+ .container3 .container3-layer_bottom { display: block;}
+
+ .container3 .container3-layer_top { opacity: 0;
+								   position: absolute;
+							       top: 0;
+								   left: 0;
+								   width: 90%;
+								   height: 90%;
+								   background: rgba(0, 0, 0, 0.6);
+								   color: #fff;
+								   padding: 15px;
+								   transition: all 0.4s ease-in-out 0s; 
+								   border-radius: 50% }
+ 
+ .container3:hover .container3-layer_top,
+ .container3.active .container3-layer_top { opacity: 1; }
+ 
+ .container3 .container3-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Ruluko';
+	font-size: 30px;
+}
+
+ .container4 { position: absolute;
+			  top: 120px;
+			  left: 920px;
+			  width: 180px;
+			  height: 180px; }
+			
+ .container4 .container4-layer_bottom { display: block;}
+
+ .container4 .container4-layer_top { opacity: 0;
+								   position: absolute;
+							       top: 0;
+								   left: 0;
+								   width: 90%;
+								   height: 90%;
+								   background: rgba(0, 0, 0, 0.6);
+								   color: #fff;
+								   padding: 15px;
+								   transition: all 0.4s ease-in-out 0s; 
+								   border-radius: 50% }
+ 
+ .container4:hover .container4-layer_top,
+ .container4.active .container4-layer_top { opacity: 1; }
+ 
+ .container4 .container4-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Ruluko';
+	font-size: 30px;
+}
+
+.container5 { position: absolute;
+			  top: 120px;
+			  left: 1130px;
+			  width: 180px;
+			  height: 180px; }
+			
+ .container5 .container5-layer_bottom { display: block;}
+
+ .container5 .container5-layer_top { opacity: 0;
+								   position: absolute;
+							       top: 0;
+								   left: 0;
+								   width: 90%;
+								   height: 90%;
+								   background: rgba(0, 0, 0, 0.6);
+								   color: #fff;
+								   padding: 15px;
+								   transition: all 0.4s ease-in-out 0s; 
+								   border-radius: 50% }
+ 
+ .container5:hover .container5-layer_top,
+ .container5.active .container5-layer_top { opacity: 1; }
+ 
+ .container5 .container5-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Ruluko';
+	font-size: 30px;
 }
 
  .left.side { position: absolute;

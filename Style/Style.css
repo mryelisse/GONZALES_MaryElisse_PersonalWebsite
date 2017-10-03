@@ -42,11 +42,23 @@
 		 height:100%; }
 		 
  .name { position: absolute;
-		 top: 250px;
-		 left: 560px;
-		 width: 400px;
-		 height: 200px; 
-		 overflow:hidden; }
+		 top: 200px;
+		 left: 500px;
+		 width: 600px;
+		 height: 300px; }
+		 
+ .name2 { position: absolute;
+		  top: 50px;
+		  left: 50px;
+		  width: 400px;
+		  height: 200px; }
+		 
+ .name2:hover { position:absolute;
+				top: 0px;
+				left: 0px;
+				width: 600px;
+				height: 300px; 
+}
 		 
 		 
 	
@@ -58,7 +70,7 @@
 		  left: 0; 
 		  top: 733px;
 		  width: 100%; 
-		  height: 650px; }
+		  height: 700px; }
 		  
  .about.top { background-color: #F2A88F; 
 			  position: absolute;  
@@ -268,53 +280,37 @@
 			  width: 500px; 
 			  height: 500px; 
 			  overflow:hidden;}
-			  
- .about.line { position: absolute;   
-			   top: 600px;
-			   left: 761.5px;
-			   width: 5px; 
-			   height: 60px; 
-			   overflow:hidden; }
+
 
 			  
 			  
-			  
-			
+			  			
 /*education & experience page*/
- .experience {  background-color: #938E94; 
+ .experience {  background-color: #FFFFFF; 
 				position:absolute; 
 				left: 0; 
-				top: 1383px;
+				top: 1433px;
 				width: 100%; 
-				height: 750px;  }	
-				
- .experience.line { position: absolute;   
-					top: 0px;
-					left: 761.5px;
-					width: 5px; 
-					height: 45px; 
-					overflow: hidden; }
+				height: 950px;  }	
 				
  .educ.and.exp.title { position: absolute;
 				       top: -40px;
 				       left: 340px;
 				       width: 800px;
-				       height: 200px;
-				       overflow:hidden; }
+				       height: 200px; }
 
  .center.art { position: absolute;
 			   top: 120px;
 			   left: 740px;
 			   width: 50px;
-			   height: 600px;
-			   overflow:hidden; }
+			   height: 850px; 
+			   z-index: 1;}
 			   
  .box1 { position: absolute;
 		 top: 110px;
 	     left: 810px;
    	     width: 380px;
 		 height: 90px;
-		 overflow:hidden; 
 		 background-image: url(../Images/descrip.png);
 		 background-repeat: no-repeat; }
 
@@ -322,120 +318,143 @@
 		 top: 194px;
 	     left: 435px;
    	     width: 400px;
-		 height: 90px;
-		 overflow:hidden; 
+		 height: 90px; 
 		 background-image: url(../Images/descrip2.png);
 		 background-repeat: no-repeat; }	
 
  .box3 { position: absolute;
-		 top: 285px;
+		 top: 295px;
 	     left: 810px;
    	     width: 400px;
 		 height: 90px;
-		 overflow:hidden; 
 		 background-image: url(../Images/descrip.png);
 		 background-repeat: no-repeat; }		   
  
  .box4 { position: absolute;
-		 top: 367px;
+		 top: 383px;
 	     left: 435px;
    	     width: 400px;
 		 height: 90px;
-		 overflow:hidden; 
 		 background-image: url(../Images/descrip2.png);
 		 background-repeat: no-repeat; }
 		   
  .box5 { position: absolute;
-		 top: 456px;
+		 top: 485px;
 	     left: 810px;
    	     width: 400px;
-		 height: 90px;
-		 overflow:hidden; 
+		 height: 90px; 
 		 background-image: url(../Images/descrip.png);
 		 background-repeat: no-repeat; }
 		   
  .box6 { position: absolute;
-		 top: 544px;
+		 top: 574px;
 	     left: 435px;
    	     width: 400px;
-		 height: 90px;
-		 overflow:hidden; 
+		 height: 90px; 
 		 background-image: url(../Images/descrip2.png);
 		 background-repeat: no-repeat; }
 
  .box7 { position: absolute;
-		 top: 630px;
+		 top: 675px;
 	     left: 810px;
    	     width: 400px;
 		 height: 90px;
 		 overflow:hidden; 
 		 background-image: url(../Images/descrip.png);
-		 background-repeat: no-repeat; }		    
+		 background-repeat: no-repeat; }		 
+
+ .box8 { position: absolute;
+		 top: 768px;
+	     left: 435px;
+   	     width: 400px;
+		 height: 90px; 
+		 background-image: url(../Images/descrip2White.png);
+		 background-repeat: no-repeat; 
+		 z-index: 2;}		 
+		 
+ .box9 { position: absolute;
+		 top: 860px;
+	     left: 810px;
+   	     width: 400px;
+		 height: 90px;
+		 overflow:hidden; 
+		 background-image: url(../Images/descripWhite.png);
+		 background-repeat: no-repeat; 
+		 z-index: 4;}	
 
  .text1 { position: absolute;
 		  top: 125px;
 	      left: 330px;
    	      width: 380px;
-		  height: 70px;
-		  overflow:hidden; }
+		  height: 70px;  }
 		  
  .text2 { position: absolute;
-		  top: 195px;
+		  top: 193px;
 	      left: 825px;
    	      width: 380px;
-		  height: 80px;
-		  overflow:hidden; }
+		  height: 80px; }
 		  
  .text3 { position: absolute;
-		  top: 295px;
+		  top: 298px;
 	      left: 334px;
    	      width: 380px;
-		  height: 65px;
-		  overflow:hidden; }		
+		  height: 65px; }		
 
  .text4 { position: absolute;
-		  top: 382px;
+		  top: 400px;
 	      left: 825px;
    	      width: 400px;
 		  height: 55px;
 		  overflow:hidden; }	
 
  .text5 { position: absolute;
-		  top: 469px;
+		  top: 495px;
 	      left: 334px;
    	      width: 380px;
-		  height: 55px;
-		  overflow:hidden; }	
+		  height: 55px; }	
 
  .text6 { position: absolute;
-		  top: 540px;
+		  top: 585px;
 	      left: 825px;
    	      width: 560px;
-		  height: 80px;
-		  overflow:hidden; }			  
+		  height: 80px; }		  
  
  .text7 { position: absolute;
-		  top: 636px;
+		  top: 676px;
 	      left: 20px;
    	      width: 680px;
-		  height: 65px;
-		  overflow:hidden; }	
+		  height: 65px; }
 
- .experience.line2 { position: absolute;   
-					 top: 700px;
-					 left: 763px;
-					 width: 5px; 
-					 height: 60px; 
-					 overflow:hidden; }			 
+ .text8 { position: absolute;
+		  top: 775px;
+	      left: 655px;
+   	      width: 760px;
+		  height: 80px; 
+		  z-index: 3;}		
+
+ .text9 { position: absolute;
+		  top: 870px;
+	      left: 20px;
+   	      width: 760px;
+		  height: 80px; 
+		  z-index: 3;}				  
+
+ .experience.bottom { background-color: #F2A88F; 
+					  position: absolute;  
+					  left: 0px; 
+					  top: 745px;
+					  width: 100%; 
+					  height: 230px; 
+					  z-index: 0;}		 
 		 
 		 
 
 		 
 		 
 /*skills page*/
- .skill {  background-color: #fafafa;
+ .skill {  background-color: #F2A88F;
 		   position:absolute;  
-		   top: 2133px;
+		   top: 2408px;
 		   width: 100%; 
 		   height: 750px;  
 		   overflow: hidden;}			
@@ -558,7 +577,7 @@
  .abilities { background-color: #f3dee5; 
 			  position:absolute; 
 			  left: 0; 
-			  top: 2883px;
+			  top: 3083px;
 			  width: 100%; 
 			  height: 650px;  
 			  overflow:hidden; }			  
@@ -712,7 +731,7 @@
 			background-attachment: fixed;
 			background-position: center;
 			position:absolute; 
-			top: 3533px;
+			top: 3733px;
 			width:100%; 
 			height:100%; 
 			overflow: hidden; }					

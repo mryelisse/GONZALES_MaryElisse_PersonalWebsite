@@ -491,7 +491,12 @@
 	         left:340px;
    	         width: 250px;
 		     height: 200px;
-		     overflow:hidden; }
+		     overflow:hidden; 
+			 -webkit-transition: -webkit-transform .8s ease-in-out;
+			 transition: transform .8s ease-in-out;}
+			 
+ .percent1:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }			 
 			 
  .percent2 { background-image: url(../Images/90.png);
 			 background-repeat: no-repeat;
@@ -500,7 +505,12 @@
 	         left: 640px;
    	         width: 250px;
 		     height: 200px;
-		     overflow:hidden; }
+		     overflow:hidden; 
+			 -webkit-transition: -webkit-transform .8s ease-in-out;
+			 transition: transform .8s ease-in-out;}
+			 
+ .percent2:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }		
 			 
  .percent3 { background-image: url(../Images/15.png);
 			 background-repeat: no-repeat;
@@ -509,7 +519,12 @@
 	         left: 940px;
    	         width: 250px;
 		     height: 200px;
-		     overflow:hidden; }
+		     overflow:hidden; 
+			  -webkit-transition: -webkit-transform .8s ease-in-out;
+			 transition: transform .8s ease-in-out;}
+			 
+ .percent3:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }		
 			 
  .percent4 { background-image: url(../Images/50.png);
 			 background-repeat: no-repeat;
@@ -518,7 +533,12 @@
 	         left: 340px;
    	         width: 250px;
 		     height: 200px;
-		     overflow:hidden; }
+		     overflow:hidden; 
+			  -webkit-transition: -webkit-transform .8s ease-in-out;
+			 transition: transform .8s ease-in-out;}
+			 
+ .percent4:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }		
 			 
  .percent5 { background-image: url(../Images/85.png);
 			 background-repeat: no-repeat;
@@ -527,7 +547,12 @@
 	         left: 640px;
    	         width: 250px;
 		     height: 200px;
-		     overflow:hidden; }
+		     overflow:hidden; 
+			 -webkit-transition: -webkit-transform .8s ease-in-out;
+			 transition: transform .8s ease-in-out;}
+			 
+ .percent5:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }		
 
  .percent6 { background-image: url(../Images/80.png);
 			 background-repeat: no-repeat;
@@ -536,7 +561,12 @@
 	         left: 940px;
    	         width: 250px;
 		     height: 200px;
-		     overflow:hidden; }	
+		     overflow:hidden; 
+			 -webkit-transition: -webkit-transform .8s ease-in-out;
+			 transition: transform .8s ease-in-out;}
+			 
+ .percent6:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }		
 
  .skill1 { position: absolute;
 		   top: 325px;

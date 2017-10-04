@@ -1061,12 +1061,12 @@
 				
 				
 				
-/*message page*/
+/*portfolio page*/
  .portfolio { background-color: #FFFFFF;
 			position:absolute; 
 			top: 3758px;
 			width:100%; 
-			height:100%; 
+			height:650px; 
 			overflow: hidden; }					
 		 
  .portfolio.title { position: absolute;
@@ -1075,3 +1075,29 @@
 					width: 400px;
 					height: 200px;
 					overflow: hidden; }
+					
+/*contact page*/
+ .contact { background-color: #FFFFFF;
+			position:absolute; 
+			top: 4408px;
+			width:100%; 
+			height:500px; }					
+		 
+ .contact.title { position: absolute;
+				  top: 0px;
+				  left: 565px;
+				  width: 400px;
+				  height: 200px; }
+				  
+ .facebook { position: absolute;
+			 top: 250px;
+			 left: 305px;
+			 width: 130px;
+			 height: 130px; }
+				  
+ .contact.bottom { background-color: #F2A88F; 
+				   position: absolute;  
+				   left: 0px; 
+				   top: 300px;
+				   width: 100%; 
+				   height: 200px; }	

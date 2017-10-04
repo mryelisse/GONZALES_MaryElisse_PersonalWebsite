@@ -857,7 +857,7 @@
 							left: 50%;
 							transform: translate(-50%, -50%);
 							font-family: 'Ruluko';
-							font-size: 30px; }
+							font-size: 18px; }
 			 
  .ability5.text { position: absolute;
 				  top: 0px;
@@ -905,7 +905,7 @@
 							left: 50%;
 							transform: translate(-50%, -50%);
 							font-family: 'Ruluko';
-							font-size: 30px; }
+							font-size: 18px; }
 	
  .ability6.text { position: absolute;
 				  top: 0px;
@@ -1076,6 +1076,20 @@
 					height: 200px;
 					overflow: hidden; }
 					
+ #slideshow {  position: absolute; 
+			   width: 800px; 
+			   height: 488px; 
+			   top: 160px; 
+			   left: 350px; }
+
+ #slideshow div { position: absolute; 
+				  width: 800px; 
+			      height: 488px; }
+
+
+
+
+ 
 /*contact page*/
  .contact { background-color: #FFFFFF;
 			position:absolute; 

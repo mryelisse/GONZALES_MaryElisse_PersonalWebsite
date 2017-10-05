@@ -1063,14 +1063,14 @@
 				
 /*portfolio page*/
  .portfolio { background-color: #FFFFFF;
-			position:absolute; 
-			top: 3758px;
-			width:100%; 
-			height:650px; 
-			overflow: hidden; }					
+			  position:absolute; 
+			  top: 3758px;
+			  width:100%; 
+			  height:720px; 
+			  overflow: hidden; }					
 		 
  .portfolio.title { position: absolute;
-					top: 0px;
+					top: -10px;
 					left: 565px;
 					width: 400px;
 					height: 200px;
@@ -1078,8 +1078,8 @@
 					
  #slideshow {  position: absolute; 
 			   width: 800px; 
-			   height: 488px; 
-			   top: 160px; 
+			   height: 498px; 
+			   top: 155px; 
 			   left: 350px; }
 
  #slideshow div { position: absolute; 
@@ -1090,28 +1090,65 @@
 
 
  
-/*contact page*/
- .contact { background-color: #FFFFFF;
-			position:absolute; 
-			top: 4408px;
-			width:100%; 
-			height:500px; }					
-		 
- .contact.title { position: absolute;
-				  top: 0px;
-				  left: 565px;
-				  width: 400px;
-				  height: 200px; }
-				  
+/*footer*/		
+ .footer { background-color: #FFFFFF;
+		   position:absolute; 
+		   top: 4478px;
+		   width:100%; 
+		   height:200px; }	 
+ 
  .facebook { position: absolute;
-			 top: 250px;
-			 left: 305px;
-			 width: 130px;
-			 height: 130px; }
-				  
- .contact.bottom { background-color: #F2A88F; 
-				   position: absolute;  
-				   left: 0px; 
-				   top: 300px;
-				   width: 100%; 
-				   height: 200px; }	
+		     top: 30px;
+			 left: 550px;
+			 width: 100px;
+			 height: 100px;
+			 z-index: 1; 
+			 -webkit-transition: -webkit-transform .8s ease-in-out;
+			 transition: transform .8s ease-in-out; }
+			 
+ .facebook:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }		
+			 
+ .instagram { position: absolute;
+		      top: 30px;
+			  left: 660px;
+			  width: 100px;
+			  height: 100px;
+			  z-index: 2;	
+			  -webkit-transition: -webkit-transform .8s ease-in-out;
+			  transition: transform .8s ease-in-out; }
+			 
+ .instagram:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }				
+			  
+ .twitter { position: absolute;
+		    top: 30px;
+			left: 770px;
+			width: 100px;
+			height: 100px;
+			z-index: 3;	
+			-webkit-transition: -webkit-transform .8s ease-in-out;
+			 transition: transform .8s ease-in-out; }
+			 
+ .twitter:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }		
+			   
+ .deviantArt { position: absolute;
+		       top: 30px;
+			   left: 880px;
+			   width: 100px;
+			   height: 100px;
+			   z-index: 4;	
+			   -webkit-transition: -webkit-transform .8s ease-in-out;
+			   transition: transform .8s ease-in-out; }
+			 
+ .deviantArt:hover { -webkit-transform: rotate(360deg);
+				   transform: rotate(360deg); }		
+
+ .footer2 { background-color: #F2A88F;
+		    position:absolute; 
+		    top: 80px;
+		    width: 100%; 
+		    height: 130px; }
+
+
